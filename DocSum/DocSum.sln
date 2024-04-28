@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocSum", "DocSum\DocSum.csproj", "{310280CB-C819-4C93-B279-15BCE34B4846}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9C756C71-746E-4C26-8444-6D0096EB5CDB} = {9C756C71-746E-4C26-8444-6D0096EB5CDB}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocSumRepository", "DocSumRepo\DocSumRepository.csproj", "{A54EE8BE-4049-476F-A300-42B8F1DC05BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocSumServices", "DocSumServices\DocSumServices.csproj", "{F7C7C8E3-CDDD-4564-96A9-96DFD0F15202}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "common", "common\common.csproj", "{9C756C71-746E-4C26-8444-6D0096EB5CDB}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TextSummarizer", "TextSummarizer\", "{ABFAF8C2-ED68-4154-9A7B-A8C6E3C1581D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60159"
+		Debug.AspNetCompiler.PhysicalPath = "TextSummarizer\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60159\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60159"
+		Release.AspNetCompiler.PhysicalPath = "TextSummarizer\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60159\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60159"
+		SlnRelativePath = "TextSummarizer\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{310280CB-C819-4C93-B279-15BCE34B4846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310280CB-C819-4C93-B279-15BCE34B4846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310280CB-C819-4C93-B279-15BCE34B4846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310280CB-C819-4C93-B279-15BCE34B4846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54EE8BE-4049-476F-A300-42B8F1DC05BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54EE8BE-4049-476F-A300-42B8F1DC05BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54EE8BE-4049-476F-A300-42B8F1DC05BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54EE8BE-4049-476F-A300-42B8F1DC05BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C7C8E3-CDDD-4564-96A9-96DFD0F15202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C7C8E3-CDDD-4564-96A9-96DFD0F15202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C7C8E3-CDDD-4564-96A9-96DFD0F15202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C7C8E3-CDDD-4564-96A9-96DFD0F15202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C756C71-746E-4C26-8444-6D0096EB5CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C756C71-746E-4C26-8444-6D0096EB5CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C756C71-746E-4C26-8444-6D0096EB5CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C756C71-746E-4C26-8444-6D0096EB5CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABFAF8C2-ED68-4154-9A7B-A8C6E3C1581D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABFAF8C2-ED68-4154-9A7B-A8C6E3C1581D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABFAF8C2-ED68-4154-9A7B-A8C6E3C1581D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABFAF8C2-ED68-4154-9A7B-A8C6E3C1581D}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5C57B29-0886-4914-9C8D-E64E8DA19717}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@DocSum_HostAddress = http://localhost:5298
+
+GET {{DocSum_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
